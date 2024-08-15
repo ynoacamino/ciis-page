@@ -1,0 +1,22 @@
+#header {
+  animation: enhance-header linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 50px;
+} 
+
+@keyframes enhance-header {
+  to {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+}
+
+
+/*cambiar el color cuando esta en modo oscuro */
+/* @media (prefers-color-scheme: dark) {
+  #header {
+    animation: enhance-header-dark linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 200px;
+  }
+} */
