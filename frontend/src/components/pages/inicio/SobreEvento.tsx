@@ -4,10 +4,10 @@ import EjesTematicos from './Ejestematicos';
 export default function SobreEvento() {
   return (
     <section className="w-full flex flex-col items-center">
-      <header className="w-full bg-primary text-background text-5xl font-bold py-10 flex items-center justify-center">
+      <header className="w-full bg-primary text-background text-3xl md:text-5xl font-bold py-10 flex items-center justify-center">
         <h1>Sobre del evento</h1>
       </header>
-      <main className="w-full max-w-6xl flex flex-col gap-10 items-center text-lg">
+      <main className="w-full max-w-6xl flex flex-col gap-10 items-center text-lg px-6">
         <p className="w-full mt-10">
           El IV Congreso Internacional de Ingeniería de Sistemas (CIIS 2024) de
           la Universidad Nacional de San Agustín de Arequipa es un espacio internacional
